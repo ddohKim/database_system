@@ -1,0 +1,25 @@
+SET SQL_SAFE_UPDATES = 0
+Delete from table  tracking
+Delete from table  location
+Delete from table  customer_phonenumber
+Delete from table  account
+Delete from table  card
+Delete from table  bill_pay
+Delete from table  shipments
+Delete from table  packages
+Delete from table  services
+Delete from table  recipient_phone_number
+Delete from table  customers
+Delete from table  recipient
+DROP TABLE  tracking
+DROP TABLE  location
+DROP TABLE  customer_phonenumber
+DROP TABLE  account
+DROP TABLE  card
+DROP TABLE bill_pay
+DROP TABLE shipments
+DROP TABLE packages
+DROP TABLE services
+DROP TABLE recipient_phone_number
+DROP TABLE  customers
+DROP TABLE recipient
